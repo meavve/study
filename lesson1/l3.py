@@ -1,0 +1,13 @@
+num = int(input())
+a = num // 100
+b = (num - a * 100) // 100
+c = (num - a * 100 - b * 10) // 10
+aStr = str(a)
+bStr = str(b)
+cStr = str(c)
+print(bStr,aStr,cStr,sep='')
+print(bStr,cStr,aStr,sep='')
+print(aStr,bStr,cStr,sep='')
+print(aStr,cStr,bStr,sep='')
+print(cStr,bStr,aStr,sep='')
+print(cStr,aStr,bStr,sep='')
