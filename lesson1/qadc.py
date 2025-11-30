@@ -1,7 +1,7 @@
 n = int(input())
-if n==1 or n==3 or n==5 or n==7 or n==8 or n==10 or n==12:
-    print("31")
-elif n==4 or n==6 or n==9 or n==11:
-    print("30")
-elif n==2:
-    print("28")
+if n>0 and n<60:
+    print("Легкий вес")
+elif n>=60 and n<64:
+    print("Первый полусредний вес")
+elif n>=64 and n<69:
+    print("Полусредний вес")
