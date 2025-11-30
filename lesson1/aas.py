@@ -1,9 +1,9 @@
 a = int(input())
 b = int(input())
 c = int(input())
-if a==b==c:
-    print("Равносторонний")
-elif a==b or b==c or a==c:
-    print("Равнобедренный")
-elif a!=b and b!=c and a!=c:
-    print("Разносторонний")
+if a > b and a < c or a > c and a < b:
+    print(a)
+elif (b > a and b < c) or (b < a and b > c):
+    print(b)
+elif (c > a and c < b) or (c < a and c > b):
+    print(c)
