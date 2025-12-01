@@ -1,7 +1,16 @@
-n = int(input())
-if n>0 and n<60:
-    print("Легкий вес")
-elif n>=60 and n<64:
-    print("Первый полусредний вес")
-elif n>=64 and n<69:
-    print("Полусредний вес")
+a = int(input())
+b = int(input())
+operation = input()
+if operation == "+":
+    print(a+b)
+elif operation == "-":
+    print(a-b)
+elif operation == "*":
+    print(a*b)
+elif b == 0:
+    print("На ноль делить нельзя!")
+elif operation == "/":
+    print(a/b)
+else:
+    print("Неверная операция")
+
