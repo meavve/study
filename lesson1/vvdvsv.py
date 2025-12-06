@@ -1,13 +1,9 @@
-a1 = int(input())
-b1 = int(input())
-a2 = int(input())
-b2 = int(input())
-
-if (b1 == a2):
-    print(b1)
-elif (b2 == a1):
-    print(b2)
-elif (b1 < a2 or b2 < a1):
-    print("пустое множество")
-else:
-    print(max(a1, a2), min(b1, b2))
+n = int(input())
+if n%2!=0:
+    print("YES")
+elif (2 <= n <= 5) and n % 2 == 0:
+    print("NO")
+elif (6 <= n <= 20) and n % 2 == 0:
+    print("YES")
+elif n%2!=0 and n>20:
+    print("NO")
